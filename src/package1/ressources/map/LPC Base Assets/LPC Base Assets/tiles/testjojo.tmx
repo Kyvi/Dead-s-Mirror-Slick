@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Herbe" tilewidth="32" tileheight="32">
+  <image source="../Downloads/LPC Base Assets/tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="Maison" tilewidth="32" tileheight="32">
+  <image source="../Downloads/LPC Base Assets/tiles/house.png" width="288" height="224"/>
+ </tileset>
+ <tileset firstgid="82" name="Eau" tilewidth="32" tileheight="32">
+  <image source="../Downloads/LPC Base Assets/tiles/watergrass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="100" name="Chemin" tilewidth="32" tileheight="32">
+  <image source="../Downloads/LPC Base Assets/tiles/dirt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="118" name="logic" tilewidth="32" tileheight="32">
+  <image source="../Downloads/LPC Base Assets/tiles/chests.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="124" name="interieur" tilewidth="32" tileheight="32">
+  <image source="../Downloads/LPC Base Assets/tiles/inside.png" width="320" height="320"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="100" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2ZzQqDMBAG995L7Xv11GJ/tBT6/g9hoArt0mw02YYcZuADjTk57G7EUURGh4APHi7w4Qc+2kK/11PIc2XOgg9vtI9HyG5lBtnu4xgJvEn56D6uD2oNH/5YPjr59kF9/J+UD/pVXVL9am/c48OfnHm+zJEcH2BT+3wFNjEfSw3goy5b66N0foAN/aotcnyUfA+CDfXRFvhoC+2jD7nNuctvD9f5+UXw4Y31TyNWK0NkP5TzMmL50HvBhwlEvF9nQB8AAA==
+  </data>
+ </layer>
+ <layer name="Calque 2" width="100" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2WOwoCQRQE5w5+InUjNRMzUTfwewtP4Pf+mQ1OsNFDwRk6qILKOisevJT+wyULHtDDC3p4QQ8v6OEFPcqzkBu5la1cBlt6lGclj/Ikz3IdbOlRnp3cdzwE21973LLwPT3Z7zgIttxHeUZyKMfZSbClR3mmspGz7DzY0sMLenhBj3pc0+cXugcbetTjIZ/yFWzoUQ96eEEPL+jhBT3q8QbAwkUqQB8AAA==
+  </data>
+ </layer>
+ <layer name="Calque 3" width="100" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OwQkAIRAEMLsQ8SNi/zUe3G8rGJGkgrQGAEDCSAcodjoAF5vpAMVJB/j1dIBipQMAAMAzPjDyxbVAHwAA
+  </data>
+ </layer>
+ <layer name="logic" width="100" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YwQqAIBBFUX/bvr6Vi4YxfeLYQPeAEDS06JJUpSCTq7O8GcTr9VAX9rD3tYpL6TG6Fp5aj1ltVumxcu6vVnvsmKeHr5rjtz2FHvHokQs9conuwfuVJrIHdPTIJfJ9Fzr7fMzOIgY9cmG/yoUeeXj/dz18M5w36oGz6PGNG4k2kVVAHwAA
+  </data>
+ </layer>
+ <objectgroup name="Calque d'objets 1" width="0" height="0">
+  <object name="personne" type="personne" x="215" y="409" width="49" height="74"/>
+ </objectgroup>
+</map>

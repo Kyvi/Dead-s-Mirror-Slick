@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32">
+  <image source="/LPC Base Assets/tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="treetop" tilewidth="32" tileheight="32">
+  <image source="/LPC Base Assets/tiles/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="61" name="water" tilewidth="32" tileheight="32">
+  <image source="/LPC Base Assets/tiles/water.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="79" name="house" tilewidth="32" tileheight="32">
+  <image source="/LPC Base Assets/tiles/house.png" width="288" height="224"/>
+ </tileset>
+ <tileset firstgid="142" name="trunk" tilewidth="32" tileheight="32">
+  <image source="/LPC Base Assets/tiles/trunk.png" width="192" height="96"/>
+  <terraintypes>
+   <terrain name="Nouveau terrain" tile="-1"/>
+  </terraintypes>
+ </tileset>
+ <tileset firstgid="160" name="holek" tilewidth="32" tileheight="32">
+  <image source="/LPC Base Assets/tiles/holek.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="178" name="rock" tilewidth="32" tileheight="32">
+  <image source="/LPC Base Assets/tiles/rock.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="180" name="kitchen" tilewidth="32" tileheight="32">
+  <image source="/LPC Base Assets/tiles/kitchen.png" width="64" height="128"/>
+ </tileset>
+ <layer name="nature" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aQQ3AMAwAsUAYsPLHU+05AutJtaUASO6bNTMrPjd5933icxM9WvRo0aNFjxY9WvRo0aNFjxY9WvRo0aNFjxY9WvRo0aNFjxY9WvRo0aPl9K+Cf4av07fWAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+NsGPauBb0CcAAA=
+  </data>
+ </layer>
+ <layer name="niveau 2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Wu0oDQRSA4X1DjYV4qdRO04V06isI4v0S30EsBF8uJ7BFAgZncCaLzvfBz0LI7h6YYk/XAfxNp9EkOoum0XjYcZo36VbPYzrsOM07jy6Wulzzv/eNTdS2rWh7qVHGvVdVJmrbXrQb7ffXg8T7bqLb6K7SXK1anMfiLHb6a+p5PEXP0UuluVp1FB1Hh/31ZNhxKMDOXF/Ot9rOXFfutzp1Z+ZnH9/8lvut/s3OzKrPAs/I2ZmvC7zvP/sq8IzUnfk+eogeC7yT9VJ35tdoFr1taC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMqbA7AoahBAnAAA
+  </data>
+ </layer>
+ <layer name="niveau 3" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WOwrCQBSG0axCLdTCZ6Ep1KUEu+D+l+FlqliFIepFPAc+mGKKv5tpGoDfd88ewItHxd1ZNI8WH9pCnWW0itbZQyg20TbaZQ8B/k43OHur8/WD85S32p/5/aa81TV/ZnLto0N0zB5CcYrOUZs9hOISXaNb9hBI0I1f4Yv68SsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANWePZm5J0CcAAA=
+  </data>
+ </layer>
+ <layer name="logic" width="100" height="100" opacity="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3a7QqCMBiA0d3/zYh32I8hlBjNuY+Xdg6IEEtoz8qo7SmlPeixpfUcrzvqsZqo61CPLMoa1SOr7dG6nx5ZaY/z43q04f0Ry4ged+d29r1rJj1iKekxY370yJ702N7OTzvq8Z0e47TscTX+13fmVvecf3H1eXWmxzglPe7So54esfT4fVePejN7lFxjNf7/iKWmR+/xx3P0KKNHP7P3LNjP8Gn2nOsBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACM9gLly1FBQJwAAA==
+  </data>
+ </layer>
+ <layer name="obstacle" width="100" height="100" opacity="0.45">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TsQ3AMAwDQe2/jFZ0kQlUBGaUu9qFgKerAIC/6tsHwBJds/80fc+MHmDTafRgOxvPokeWlB4pd/DQI4sefNV0u7b+Lj0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgpwNULxgbQJwAAA==
+  </data>
+ </layer>
+ <layer name="personne" width="100" height="100" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VwQ0AIAgEQfpvhhatwYfxxJkKiAuxCgCAX/XtAYbo8pZJ9AA3kEYPAG7zF2XRI4sevGp3d+36WXoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADATAux7v1RQJwAAA==
+  </data>
+ </layer>
+ <layer name="rochers" width="100" height="100" opacity="0.01">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OAQ0AAAgDoPcvY0Vj3E1IQAIAfDXtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABy0I3rk7UCcAAA=
+  </data>
+ </layer>
+ <layer name="Forge" width="100" height="100" opacity="0.01">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RMQ0AAAjAMPybwSI3Lw+QtAqWLAIAAAAAYCa3A2j8uMUPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4qwABVjbeQJwAAA==
+  </data>
+ </layer>
+ <layer name="zone1" width="100" height="100" opacity="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YQQ6CMBBAUe5/GfWGujExk5lqSmlr8l7SDeJmPlD0ONjN7YJFPz32osde9NhLNdP7az0an+txjWr2esz3OXc91nvPPeugx3yxQ7xf9JhPj73EvcLzaq3q3tBjjaxH9c6lx/VaPVozb51Dv/jO++3eyM7VY5xqP//luaTHeNVczxyjX+s6j7/ds70m+z79snlW/6FUx/QYJ+7hZ5YeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L+etdaGEECcAAA=
+  </data>
+ </layer>
+ <layer name="zone2" width="100" height="100" opacity="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YQQrDIBAF0N7/Mklu2CxaCIMzNWjc9D2Qisv51Ym+XvyD7Rz7OY7PfLuxtod1xsU6xxpf1+KQx3yt2mZ74UjmMpmn2gutDL6/razkMS7WszqzjjBiHozL8oi1z84recxV9YY731nymCP28+zbSR5rZDXPenp1vjGutT+quX7+rOrefTcnxvX0c3msk9U23teztxJ5zNVzD2/1enk849fblDzWqvZHa7/I41m9b7mtb1x5zNfbP6o+L495sr5QvSm23lbkMUf2flXdze2P9fz/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuHoDqq/feECcAAA=
+  </data>
+ </layer>
+ <layer name="boss" width="100" height="100" opacity="0.5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RMQ0AAAgEsfdvBossTAggDG1yCi4BAAAu1cQPfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsDV//l8FQJwAAA==
+  </data>
+ </layer>
+ <layer name="logic2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVP7WULoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBt5RKnmQJwAAA==
+  </data>
+ </layer>
+ <layer name="logic1" width="100" height="100" opacity="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YWwqFIBRA0eY/Gad4f69RaOLjwFkLIggJcptE5bquEvjI5vR861HL+txR3XtYo2fN6qHfHKM97tf1mMP7EcuOHl87Ze6qRyw9PexF+8zsUf7OOo7pnWc99pjZ42l865tZr9rTfvU2Ro/1enqM3lOP76L2yNpoxfrUY9zJHq17ZGT/jmWkx+rxmekRS+v/yOkjm9PzrUct4zMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBuP5b+3vpAnAAA
+  </data>
+ </layer>
+ <layer name="logic3" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVP7WULoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBt5RKnmQJwAAA==
+  </data>
+ </layer>
+</map>
